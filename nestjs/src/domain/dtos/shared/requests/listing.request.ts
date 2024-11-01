@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty } from 'class-validator';
+import { IsNotEmpty, IsOptional } from 'class-validator';
 
 export enum OrderDirectionEnum {
   ASC = 'asc',
@@ -28,8 +28,8 @@ export class ListingRequest {
     example: 'name',
     required: false,
   })
-  @IsNotEmpty()
-  sortColumn: string;
+  @IsOptional()
+  sortColumn?: string;
 
   @ApiProperty({
     description: 'Direction to order the results',
@@ -37,6 +37,6 @@ export class ListingRequest {
     example: OrderDirectionEnum.ASC,
     required: false,
   })
-  @IsNotEmpty()
-  sortDirection: OrderDirectionEnum;
+  @IsOptional()
+  sortDirection?: OrderDirectionEnum;
 }

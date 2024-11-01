@@ -13,3 +13,10 @@ This repository includes boilerplates for the following technologies:
 - **NestJS** - Structured and extensible Node.js applications using the NestJS framework.
 
 ---
+
+## TODO
+
+- Tests for nestjs
+- Nextjs
+- Tests for Nextjs
+- .NET
