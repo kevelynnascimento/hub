@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: best_time_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/var/lib/mongodb/data
+volumes:
+  mongodb-data:
