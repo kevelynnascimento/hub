@@ -1,8 +1,8 @@
-using UserApi.Entites;
-using UserApi.Repositories.Interfaces;
-using UserApi.Services.Interfaces;
+using Api.Entites;
+using Domain.Repositories.Interfaces;
+using Domain.Services.Interfaces;
 
-namespace UserApi.Services;
+namespace Domain.Services;
 
 public class UserService : IUserService
 {

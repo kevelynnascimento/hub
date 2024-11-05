@@ -1,8 +1,8 @@
+using Api.Entites;
+using Domain.Repositories.Interfaces;
 using MongoDB.Driver;
-using UserApi.Entites;
-using UserApi.Repositories.Interfaces;
 
-namespace UserApi.Repositories;
+namespace Infrastructure.Repositories;
 
 public class UserRepository : IUserRepository
 {

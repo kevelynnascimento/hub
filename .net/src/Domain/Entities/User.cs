@@ -1,4 +1,4 @@
-namespace UserApi.Entites;
+namespace Api.Entites;
 
 public class User
 {

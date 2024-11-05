@@ -1,5 +1,7 @@
-using UserApi.Services;
+using Api.Services;
 using Xunit;
+
+namespace DomainTests;
 
 public class BinarySearchTest
 {

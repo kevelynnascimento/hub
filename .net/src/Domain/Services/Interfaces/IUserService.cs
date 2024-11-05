@@ -1,8 +1,8 @@
-using UserApi.Entites;
+using Api.Entites;
 
-namespace UserApi.Repositories.Interfaces;
+namespace Domain.Services.Interfaces;
 
-public interface IUserRepository
+public interface IUserService
 {
     IEnumerable<User> GetAll();
     User GetById(string id);

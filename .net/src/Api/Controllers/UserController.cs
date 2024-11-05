@@ -1,8 +1,8 @@
+using Api.Entites;
+using Domain.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using UserApi.Entites;
-using UserApi.Services.Interfaces;
 
-namespace UserApi.Controllers;
+namespace Api.Controllers;
 
 [Route("api/users")]
 [ApiController]

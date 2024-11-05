@@ -1,5 +1,4 @@
-namespace UserApi.Services;
-
+namespace Api.Services;
 
 public class BinarySearch
 {
